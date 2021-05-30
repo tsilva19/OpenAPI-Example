@@ -6,9 +6,9 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/db_bootcamp
-    username: postgres
-    password: postgres
+    url: postgres://ununbnehyrmrql:af062cdb5fb1e08d7ee634a6a539ffbccad637a6fae4c38f8ff1946031c4b542@ec2-3-215-57-87.compute-1.amazonaws.com:5432/ddj0cehm5nh24i
+    username: ununbnehyrmrql
+    password: af062cdb5fb1e08d7ee634a6a539ffbccad637a6fae4c38f8ff1946031c4b542
   jpa:
     show-sql: true
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
@@ -18,3 +18,7 @@ spring:
 
 application:
   description: Projeto de Bootcamp
+
+#url: jdbc:postgresql://localhost:5432/db_bootcamp
+#username: postgres
+#password: postgres
